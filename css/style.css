@@ -1,4 +1,43 @@
 body{
     background-color: rgb(70, 66, 66);
-    color: whitesmoke;
+    color: rgb(241, 238, 238);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav a{
+    margin-right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgba(153, 153, 153, 0.699);
+    padding: 0px 4px;
+    border-radius: 6px;
+}
+
+a:checked{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgba(153, 153, 153, 0.699);
+    padding: 0px 4px;
+    border-radius: 6px;
+}
+
+.foto-robo img{
+    width: 310px;
+    height: 310px;
+    border-radius: 16px;
+}
+
+.video-robo iframe{
+    width: 360px;
+    height: 360px;
+    border-radius: 16px;
 }
